@@ -835,6 +835,20 @@
       "description": "Automatically Skips non-music parts like intro/outro or parts of music videos where the song isn't playing",
       "name": "SponsorBlock"
     },
+    "statusbar-lyrics": {
+      "description": "Shows the current lyric line in the macOS menu bar. Requires the Synced Lyrics plugin.",
+      "error": "♪ Lyrics unavailable",
+      "menu": {
+        "ellipsis": "Show ellipsis when clipped",
+        "width": {
+          "auto": "Auto (fit the menu bar)",
+          "label": "Width",
+          "points": "{{points}} pt"
+        }
+      },
+      "name": "Status Bar Lyrics",
+      "no-lyrics": "♪ No lyrics"
+    },
     "synced-lyrics": {
       "description": "Provides synced lyrics to songs, using providers like LRClib.",
       "errors": {

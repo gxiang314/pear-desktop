@@ -187,7 +187,7 @@
       "plugins": {
         "enabled": "已啟用",
         "label": "外掛功能",
-        "new": "新的ｃ"
+        "new": "新的"
       },
       "view": {
         "label": "檢視",
@@ -834,6 +834,20 @@
     "sponsorblock": {
       "description": "自動跳過贊助片段",
       "name": "SponsorBlock"
+    },
+    "statusbar-lyrics": {
+      "description": "在 macOS 選單列顯示目前的歌詞。需搭配「歌詞同步」外掛使用。",
+      "error": "♪ 歌詞無法取得",
+      "menu": {
+        "ellipsis": "截斷時顯示省略號",
+        "width": {
+          "auto": "自動（配合選單列空間）",
+          "label": "寬度",
+          "points": "{{points}} pt"
+        }
+      },
+      "name": "選單列歌詞",
+      "no-lyrics": "♪ 無歌詞"
     },
     "synced-lyrics": {
       "description": "使用 LRClib 等管道提供歌詞同步顯示。",
